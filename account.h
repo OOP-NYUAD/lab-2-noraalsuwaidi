@@ -20,7 +20,7 @@ private:
     // Private member variable to store the balance.
     double balance;
     
-    }
+  
 
 public:
     // Default constructor.
