@@ -26,11 +26,14 @@ public:
     // Default constructor.
     // Initialize 'balance' to 0.
     Account();
+    double balance=0;
 
     // Parameterized constructor.
     // Initialize 'balance' with the provided 'initialBalance'.
-    Account(double initialBalance);
-
+    Account(double initialBalance){
+         double balance= initialBalance; 
+    }
+    
     // Getter function to return the current balance.
     double getBalance();
 
@@ -45,7 +48,11 @@ public:
 
     // Destructor.
     // Display a message indicating the account is being destroyed.
-    ~Account();
+    ~Account(){
+        std::cout <<"Account with balance" << balance<<"is being destroyed"<<"\n";
+    }
+    
+     
 };
 
 #endif // ACCOUNT_H
