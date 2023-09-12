@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "lab2exercise1Test",
+      "setup": "g++ lab2exercise1.cpp",
+      "run": "./a.out",
+      "input": "",
+      "output": "Account 1 balance: 0\r\nAccount 2 balance: 1000\r\nAccount 1 balance after deposit: 500\r\nAccount 2 balance after withdrawal: 800\r\nAccount 1 balance after setting a new balance: 3000\r\nInsufficient funds!\r\nAccount with balance 3000 is being destroyed.\r\nAccount with balance 800 is being destroyed.",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
