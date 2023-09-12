@@ -19,8 +19,7 @@ class Account {
 private:
     // Private member variable to store the balance.
     double balance;
-    void printbalance(){
-        cout<<" Balance is:" << balance <<"\n";
+    
     }
 
 public:
